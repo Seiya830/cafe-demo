@@ -1,2 +1,28 @@
+a {
+  text-decoration: none;
+}
 
+header {
+  height: 600px;
+  background-image: url("../img/coffee-4618043_1280.jpg");
+  background-size: cover;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+header nav ul li {
+  margin: 20px 24px 0 0;
+}
+header nav ul li a {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+}
+header h1 {
+  color: #fff;
+  font-size: 84px;
+  font-weight: bold;
+}
 /*# sourceMappingURL=style.css.map */
