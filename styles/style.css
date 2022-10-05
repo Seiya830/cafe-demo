@@ -39,11 +39,9 @@ main {
     margin-top: 20px;
   }
 }
-main .menu {
+main .menu h2 {
   background-image: url("../img/coffee-2714970_1280.jpg");
   background-position: right 35% bottom 50%;
-}
-main .menu h2 {
   font-size: 32px;
   font-weight: bold;
   text-align: center;
@@ -57,5 +55,28 @@ main .menu h2 {
     height: 300px;
     line-height: 300px;
   }
+}
+main .menu .menu-wrap .sub-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+main .menu .menu-wrap h3 {
+  margin-top: 32px;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  border-bottom: solid;
+  border-color: red;
+  border-width: 5px;
+}
+main .menu .menu-wrap .menu-text {
+  margin: 0 auto;
+  padding: 0 16px;
+}
+main .menu .menu-wrap .menu-text li {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dotted;
+  margin-bottom: 30px;
 }
 /*# sourceMappingURL=style.css.map */
