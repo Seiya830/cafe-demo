@@ -56,6 +56,24 @@ main {
         line-height: 300px;
       }
     }
+    .pc-wrap {
+      @include pc {
+        margin-top: 96px;
+        display: flex;
+        justify-content: center;
+      }
+      .pc-line {
+        @include pc {
+          margin: 0 1px;
+          width: 1px;
+          background-color: #000;
+        }
+      }
+      .pc-item {
+        margin: 0 50px;
+        width: 320px;
+      }
+    }
     .menu-wrap {
       .sub-title {
         text-align: center;
@@ -67,7 +85,7 @@ main {
         font-weight: bold;
         display: inline-block;
         border-bottom: solid;
-        border-color: red;
+        border-color: #f00;
         border-width: 5px;
       }
       .menu-text {
