@@ -56,6 +56,24 @@ main .menu h2 {
     line-height: 300px;
   }
 }
+@media screen and (min-width: 960px) {
+  main .menu .pc-wrap {
+    margin-top: 96px;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 960px) {
+  main .menu .pc-wrap .pc-line {
+    margin: 0 1px;
+    width: 1px;
+    background-color: #000;
+  }
+}
+main .menu .pc-wrap .pc-item {
+  margin: 0 50px;
+  width: 320px;
+}
 main .menu .menu-wrap .sub-title {
   text-align: center;
   margin-bottom: 30px;
@@ -66,7 +84,7 @@ main .menu .menu-wrap h3 {
   font-weight: bold;
   display: inline-block;
   border-bottom: solid;
-  border-color: red;
+  border-color: #f00;
   border-width: 5px;
 }
 main .menu .menu-wrap .menu-text {
