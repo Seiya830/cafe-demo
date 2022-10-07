@@ -140,12 +140,18 @@ main {
         border-left: solid 2px #f00;
         top: 0;
         left: 25%;
+        @include pc {
+          left: 42%;
+        }
       }
       &::after {
         border-bottom: solid 2px #f00;
         border-right: solid 2px #f00;
         bottom: 0;
         right: 25%;
+        @include pc {
+          right: 42%;
+        }
       }
     }
   }

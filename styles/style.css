@@ -165,11 +165,21 @@ main .about .read-more::before {
   top: 0;
   left: 25%;
 }
+@media screen and (min-width: 960px) {
+  main .about .read-more::before {
+    left: 42%;
+  }
+}
 main .about .read-more::after {
   border-bottom: solid 2px #f00;
   border-right: solid 2px #f00;
   bottom: 0;
   right: 25%;
+}
+@media screen and (min-width: 960px) {
+  main .about .read-more::after {
+    right: 42%;
+  }
 }
 main .location {
   margin-top: 140px;
