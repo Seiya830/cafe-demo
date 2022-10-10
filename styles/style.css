@@ -227,4 +227,17 @@ main .location .map iframe {
   height: 400px;
   aspect-ratio: 16/9;
 }
+
+footer {
+  margin: 22px 16px 0 16px;
+}
+@media screen and (min-width: 960px) {
+  footer {
+    margin: 30px 120px 0 120px;
+  }
+}
+footer .copyright {
+  margin-top: 100px;
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */

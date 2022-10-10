@@ -187,3 +187,14 @@ main {
     }
   }
 }
+
+footer {
+  margin: 22px 16px 0 16px;
+  @include pc {
+    margin: 30px 120px 0 120px;
+  }
+  .copyright {
+    margin-top: 100px;
+    text-align: center;
+  }
+}
